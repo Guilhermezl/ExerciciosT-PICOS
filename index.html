@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios Tópicos</title>
+    <link rel="shortcut icon" href="html.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="container">
+            <h2>Verificador de Par ou Ímpar</h2>
+            <input type="number" id="numero" placeholder="Digite um número">
+            <button onclick="verificarParOuImpar()">Verificar</button>
+            <p id="resultado"></p>
+        </div>
+
+        <div class="container">
+            <h2>Ordenação Decrescente</h2>
+            <button onclick="lerEOrdenar()">Ordenar</button>
+            <p id="resultado"></p>
+        </div>
+
+        <div class="container">
+            <h2>Calculadora de IMC</h2>
+            <input type="number" id="altura" step="0.01" placeholder="Altura (metros)">
+            <input type="number" id="peso" placeholder="Peso (quilogramas)">
+            <button onclick="calcularIMC()">Calcular IMC</button>
+        </div>
+
+        <div class="container">
+            <h2>Classificação de Triângulo</h2>
+            <input type="number" id="lado1" placeholder="Lado 1">
+            <input type="number" id="lado2" placeholder="Lado 2">
+            <input type="number" id="lado3" placeholder="Lado 3">
+            <button onclick="classificarTriangulo()">Classificar Triângulo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
